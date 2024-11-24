@@ -1,3 +1,3 @@
-# CALCULATOR
+## Calculator Mini Grid Project
 
-## Mini Grid Project
+![Results](./screencapture.png)
