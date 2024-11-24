@@ -32,7 +32,15 @@ buttons.forEach((button) => {
 
 function handleNumber(value) {
   if (isResultDisplayed) return;
+
+  if (currentValue === "0" && value === "0") return;
+  if (currentValue === "0" && value !== ".") {
+    currentValue = value;
+    return;
+  }
+
   if (currentValue.includes(".") && value === ".") return;
+
   currentValue += value;
 }
 
