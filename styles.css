@@ -1,3 +1,10 @@
+body {
+  background: url(./wall-math.jpg) center / cover no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
 button {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -25,11 +32,13 @@ button:active {
 
 .parent {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 80px;
   width: 400px;
   border: 1px solid #000000;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .child {
