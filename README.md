@@ -1,3 +1,3 @@
 ## Calculator Mini Grid Project
 
-![Results](./screencapture.png)
+![Results](./images/screencapture.png)
